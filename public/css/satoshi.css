@@ -1,0 +1,303 @@
+/**
+* @license
+*
+* Font Family: Satoshi
+* Designed by: Deni Anggara
+* URL: https://www.fontshare.com/fonts/Satoshi/satoshi
+* © 2024 Indian Type Foundry
+*
+* Satoshi Light 
+* Satoshi LightItalic 
+* Satoshi Regular 
+* Satoshi Italic 
+* Satoshi Medium 
+* Satoshi MediumItalic 
+* Satoshi Bold 
+* Satoshi BoldItalic 
+* Satoshi Black 
+* Satoshi BlackItalic 
+* Satoshi Variable (Variable font)
+* Satoshi VariableItalic (Variable font)
+
+*
+*/
+/* Fontspring-DEMO-integralcf-bold.otf */
+@font-face {
+  font-family: 'Integral CF Bold';
+  src: url('../../src/assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-bold.otf') format('opentype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+/* Fontspring-DEMO-integralcf-boldoblique.otf */
+@font-face {
+  font-family: 'Integral CF Bold Oblique';
+  src: url('../../src/assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-boldoblique.otf') format('opentype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+
+/* Fontspring-DEMO-integralcf-demiboldinbold.otf */
+@font-face {
+  font-family: 'Integral CF Demi Bold';
+  src: url('../../src/assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-demiboldinbold.otf') format('opentype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+/* Fontspring-DEMO-integralcf-demiboldinboldoblique.otf */
+@font-face {
+  font-family: 'Integral CF Demi Bold Oblique';
+  src: url('../../src/assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-demiboldinboldoblique.otf') format('opentype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: italic;
+}
+
+/* Fontspring-DEMO-integralcf-demiboldinboldoblique.otf */
+@font-face {
+  font-family: 'Integral CF Demi Bold Oblique';
+  src: url('../../src/assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-demiboldinboldoblique.otf') format('opentype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: italic;
+}
+
+/* Fontspring-DEMO-integralcf-demiboldoblique.otf */
+@font-face {
+  font-family: 'Integral CF Demi Bold Oblique';
+  src: url('../../src/assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-demiboldoblique.otf') format('opentype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: italic;
+}
+
+/* Fontspring-DEMO-integralcf-extrabold.otf */
+@font-face {
+  font-family: 'Integral CF Extra Bold';
+  src: url('../../src/assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-extrabold.otf') format('opentype');
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+
+/* Fontspring-DEMO-integralcf-extraboldinboldoblique.otf */
+@font-face {
+  font-family: 'Integral CF Extra Bold Oblique';
+  src: url('../../src/assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-extraboldinboldoblique.otf') format('opentype');
+  font-weight: 800;
+  font-display: swap;
+  font-style: italic;
+}
+
+/* Fontspring-DEMO-integralcf-extraboldinboldoblique.otf */
+@font-face {
+  font-family: 'Integral CF Extra Bold Oblique';
+  src: url('../../src/assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-extraboldinboldoblique.otf') format('opentype');
+  font-weight: 800;
+  font-display: swap;
+  font-style: italic;
+}
+
+/* Fontspring-DEMO-integralcf-extraboldinboldoblique.otf */
+@font-face {
+  font-family: 'Integral CF Extra Bold Oblique';
+  src: url('../../src/assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-extraboldinboldoblique.otf') format('opentype');
+  font-weight: 800;
+  font-display: swap;
+  font-style: italic;
+}
+
+/* Fontspring-DEMO-integralcf-heavy.otf */
+@font-face {
+  font-family: 'Integral CF Heavy';
+  src: url('../../src/assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-heavy.otf') format('opentype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+/* Fontspring-DEMO-integralcf-heavyoblique.otf */
+@font-face {
+  font-family: 'Integral CF Heavy Oblique';
+  src: url('../../src/assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-heavyoblique.otf') format('opentype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+/* Fontspring-DEMO-integralcf-medium.otf */
+@font-face {
+  font-family: 'Integral CF Medium';
+  src: url('../../src/assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-medium.otf') format('opentype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+/* Fontspring-DEMO-integralcf-mediumoblique.otf */
+@font-face {
+  font-family: 'Integral CF Medium Oblique';
+  src: url('../../src/assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-mediumoblique.otf') format('opentype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+
+/* Fontspring-DEMO-integralcf-regular.otf */
+@font-face {
+  font-family: 'Integral CF Regular';
+  src: url('../../src/assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-regular.otf') format('opentype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+/* Fontspring-DEMO-integralcf-regularoblique.otf */
+@font-face {
+  font-family: 'Integral CF Regular Oblique';
+  src: url('../../src/assets/fonts/Integral-CF/Fontspring-DEMO-integralcf-regularoblique.otf') format('opentype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../../src/assets/fonts/Satoshi/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Ayuda a mejorar la carga de fuentes */
+}
+
+
+@font-face {
+  font-family: 'Satoshi-Light';
+  src: url('../../src/assets/fonts/Satoshi/Satoshi-Light.woff2') format('woff2'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-Light.woff') format('woff'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi-LightItalic';
+  src: url('../../src/assets/fonts/Satoshi/Satoshi-LightItalic.woff2') format('woff2'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-LightItalic.woff') format('woff'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Satoshi-Regular';
+  src: url('../../src/assets/fonts/Satoshi/Satoshi-Regular.woff2') format('woff2'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-Regular.woff') format('woff'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi-Italic';
+  src: url('../../src/assets/fonts/Satoshi/Satoshi-Italic.woff2') format('woff2'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-Italic.woff') format('woff'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Satoshi-Medium';
+  src: url('../../src/assets/fonts/Satoshi/Satoshi-Medium.woff2') format('woff2'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-Medium.woff') format('woff'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi-MediumItalic';
+  src: url('../../src/assets/fonts/Satoshi/Satoshi-MediumItalic.woff2') format('woff2'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-MediumItalic.woff') format('woff'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('../../src/assets/fonts/Satoshi/Satoshi-Bold.woff2') format('woff2'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-Bold.woff') format('woff'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi-BoldItalic';
+  src: url('../../src/assets/fonts/Satoshi/Satoshi-BoldItalic.woff2') format('woff2'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-BoldItalic.woff') format('woff'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Satoshi-Black';
+  src: url('../../src/assets/fonts/Satoshi/Satoshi-Black.woff2') format('woff2'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-Black.woff') format('woff'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi-BlackItalic';
+  src: url('../../src/assets/fonts/Satoshi/Satoshi-BlackItalic.woff2') format('woff2'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-BlackItalic.woff') format('woff'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: italic;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 900.0;
+*
+* available axes:
+'wght' (range from 300.0 to 900.0
+*/
+@font-face {
+  font-family: 'Satoshi-Variable';
+  src: url('../../src/assets/fonts/Satoshi/Satoshi-Variable.woff2') format('woff2'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-Variable.woff') format('woff'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-Variable.ttf') format('truetype');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 900.0;
+*
+* available axes:
+'wght' (range from 300.0 to 900.0
+*/
+@font-face {
+  font-family: 'Satoshi-VariableItalic';
+  src: url('../../src/assets/fonts/Satoshi/Satoshi-VariableItalic.woff2') format('woff2'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-VariableItalic.woff') format('woff'),
+       url('../../src/assets/fonts/Satoshi/Satoshi-VariableItalic.ttf') format('truetype');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: italic;
+}
+
