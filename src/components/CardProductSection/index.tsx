@@ -13,16 +13,18 @@ interface Product1{
   
   
 
-  const CardProductSection = ({title, price, image}: Product1) => {
+  const CardProductSection = ({title, price, image,id}: Product1) => {
     return (
         <section className="w-full h-full">
             {/* Contenedor con fondo color #F0EEED */}
             <div className="w-full h-60  rounded-lg p-2  shadow-xl ">
+                <a href={`products/${id}`}>
                 <img 
                     src={image} 
                     alt={'Producto'} 
                     className="w-full h-full object-contain" 
                 />
+                </a>
             </div>
             <h3 className="font-satoshi-bold text-justify text-xl my-7 h-10">{title}</h3>
             <div className="ProductData">
