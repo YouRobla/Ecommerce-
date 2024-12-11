@@ -1,23 +1,25 @@
 
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Header from './components/Header/index.tsx'
-import CardInfo from './components/CardInfo/index.tsx'
-import TeamMembers from './components/TeamMembers/index.tsx'
-import CardProductL from './LogicalComponents/CardProductL'
-import Footer from './components/Footer/index.tsx'
+import IndexPage from './Pages/IndexPage'
+
+import {
+    createBrowserRouter,
+    RouterProvider,
+  } from "react-router-dom";
+import ProductDetailPage from './Pages/ProductDetailPage';
 
 
+const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <IndexPage/>,
+    },
+    {
+      path: "products/:Id",
+      element:<ProductDetailPage/> ,
 
-createRoot(document.getElementById('root')!).render(
-    <>
-     <Header/>
-     <CardInfo/>
-     <TeamMembers/>
-     <CardProductL titleSection='NEW ARRIVALS' />
-     <CardProductL titleSection='TOP SELLING' /> 
-     <Footer/>
-    </>
-    
- 
-)
+    },
+  ]);  
+
+createRoot(document.getElementById('root')!).render( <RouterProvider router={router} />)
