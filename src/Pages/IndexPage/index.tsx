@@ -11,8 +11,8 @@ const IndexPage =()=>{
         <Header/>
         <CardInfo/>
         <TeamMembers/>
-        <CardProductL titleSection='NEW ARRIVALS' />
-        <CardProductL titleSection='TOP SELLING' /> 
+        <CardProductL titleSection='NEW ARRIVALS' startProduct="6"/>
+        <CardProductL titleSection='TOP SELLING' startProduct="5"/> 
         <Footer/>
        </>
     );
