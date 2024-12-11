@@ -1,12 +1,14 @@
 import Buttom from "../../components/Buttom";
 import CardProductSection from "../../components/CardProductSection";
 import UseFetch from '../../Hooks/UseFetch';
+import { Product1 } from "../../Types/products";
 interface ICardProductL {
   titleSection: string;
+  startProduct:string
 }
 
-const CardProductL = ({ titleSection }: ICardProductL) => {
-  const { data, loading, error } = UseFetch('/products?limit=4');
+const CardProductL = ({ titleSection,startProduct }: ICardProductL) => {
+  const { data, loading, error } = UseFetch<Product1[]>(`products?offset=${startProduct}&limit=4`);
   if (loading) return <div>Cargando...</div>;
   if (error) return <div>Error: {error}</div>;
   if (!data) return <div>No se encontraron productos.</div>;

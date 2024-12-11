@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Header = ()=>{
@@ -14,7 +15,7 @@ const Header = ()=>{
 
             <div className="flex items-center px-3 sm:px-10 lg:px-20 py-3 justify-between ">
                <div className="flex gap-10 mr-10">
-                <p className="font-integral-cf-extra-bold text-[30px] font-extrabold">SHOP.CO</p>
+                <p className="font-integral-cf-extra-bold text-[30px] font-extrabold"><Link to={'/'}>SHOP.CO</Link></p>
                     <nav className="flex list-none  font-satoshi-regular">
                         <ul className="flex  items-center gap-7  text-[13px]">
                             <li >

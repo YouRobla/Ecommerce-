@@ -1,42 +1,47 @@
 import { useEffect, useState } from "react";
-import Utils from '../../utils'
+import API_URL from "../../utils";
 
-interface Product1 {
-  id: number;
-  title: string;
-  price: number;
-  category: string;
-  description: string;
-  image: string;
+interface FetchResult<T> {
+  data: T | null;
+  loading: boolean;
+  error: string | null;
 }
 
-function UseFetch(url: string): { data: Product1[] | null, loading: boolean, error: string | null } {
-  const [data, setData] = useState<Product1[] | null>(null);
-  const [loading, setLoading] = useState<boolean>(false);
+ function UseFetch<T>(url: string): FetchResult<T> {
+  const [data, setData] = useState<T | null>(null);
+  const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
+
   const fetchData = async () => {
     setLoading(true);
-    setError(null);  
+    setError(null);
+
     try {
-      const response = await fetch(`${Utils}${url}`);
+      const response = await fetch(`${API_URL}${url}`);
+
       if (!response.ok) {
-        throw new Error("Algo falló");
+        throw new Error("algo fallo");
       }
-      const result: Product1[] = await response.json();
+
+      const result = await response.json();
+
       setData(result);
     } catch (err) {
       const errorMessage =
         err instanceof Error ? err.message : "An unexpected error occurred";
+
+      console.error(errorMessage);
       setError(errorMessage);
     } finally {
       setLoading(false);
     }
   };
+
   useEffect(() => {
     fetchData();
-  }, []); // La URL como dependencia para que se recargue si cambia
+  }, []);
 
   return { data, loading, error };
-}
+};
 
-export default UseFetch;
+export default UseFetch
