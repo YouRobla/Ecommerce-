@@ -4,6 +4,7 @@ import { Product1 } from '../../Types/products';
 const CardProductSection = ({ id, title, price, images }: Product1) => {
     return (
         <section className="w-full">
+            
             <div className="rounded-lg shadow-xl overflow-hidden">
                 <Link to={`products/${id}`}>
                     <img
