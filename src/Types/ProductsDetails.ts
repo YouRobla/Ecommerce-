@@ -1,4 +1,4 @@
- interface ProductsDetails {
+export interface ProductsDetails {
   id: string;
   title: string;
   description: string;
@@ -38,4 +38,3 @@
   thumbnail: string;
 }
 
-export default ProductsDetails;

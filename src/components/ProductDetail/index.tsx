@@ -1,10 +1,10 @@
 import { useState } from "react";
 import UseFetch from "../../Hooks/UseFetch";
-import ProductDetails from "../../Types/ProductsDetails";
 import { FaCheck } from "react-icons/fa6";
 import { TiPlus } from "react-icons/ti";
 import { FaMinus } from "react-icons/fa6";
-import { useCart } from "../../Context/CartContext";
+import { useCart } from '../../Context/CartContext';
+import { ProductsDetails } from '../../Types/ProductsDetails';
 interface ProductDetailProps {
   IdProduct?: string;
 }
@@ -38,7 +38,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ IdProduct }) => {
     addToCart(cartItem);
   };
 
-  const { data, loading, error } = UseFetch<ProductDetails>(`products/${IdProduct}`);
+  const { data, loading, error } = UseFetch<ProductsDetails>(`products/${IdProduct}`);
   if (loading) return <div>Cargando...</div>;
   if (error) return <div>Error: {error}</div>;
   if (!data) return <div>No se encontraron productos.</div>;

@@ -1,5 +1,4 @@
-import  ProductsDetails  from "./ProductsDetails";
-
+import { ProductsDetails } from "./ProductsDetails";
 interface ProductResponse {
     products: ProductsDetails[];
     total: number;
