@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import { Product1 } from '../../Types/products';
+import {ProductsDetails} from "../../Types/ProductsDetails";
 
-const CardProductSection = ({ id, title, price, images }: Product1) => {
+const CardProductSection = ({ id, title, price, images }:ProductsDetails) => {
     return (
         <section className="w-full">
             

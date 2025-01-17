@@ -1,14 +1,13 @@
-
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import IndexPage from './Pages/IndexPage'
-
 import {
     createBrowserRouter,
     RouterProvider,
-  } from "react-router-dom";
+} from "react-router-dom";
 import ProductDetailPage from './Pages/ProductDetailPage';
-
+import ShoppingCartPage from './Pages/ShoppingCartPage';
+import { CartProvider } from './context/CartContext';
 
 const router = createBrowserRouter([
     {
@@ -17,9 +16,16 @@ const router = createBrowserRouter([
     },
     {
       path: "products/:Id",
-      element:<ProductDetailPage/> ,
-
+      element: <ProductDetailPage/>,
     },
-  ]);  
+    {
+      path: "/Cart",
+      element: <ShoppingCartPage/>,
+    },
+]);  
 
-createRoot(document.getElementById('root')!).render( <RouterProvider router={router} />)
+createRoot(document.getElementById('root')!).render(
+  <CartProvider>
+    <RouterProvider router={router} />
+  </CartProvider>
+)
