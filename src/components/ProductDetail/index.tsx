@@ -4,7 +4,7 @@ import ProductDetails from "../../Types/ProductsDetails";
 import { FaCheck } from "react-icons/fa6";
 import { TiPlus } from "react-icons/ti";
 import { FaMinus } from "react-icons/fa6";
-import { useCart } from "../../context/CartContext";
+import { useCart } from "../../Context/CartContext";
 interface ProductDetailProps {
   IdProduct?: string;
 }
