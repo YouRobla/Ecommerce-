@@ -3,7 +3,7 @@ import UseFetch from "../../Hooks/UseFetch";
 import { FaCheck } from "react-icons/fa6";
 import { TiPlus } from "react-icons/ti";
 import { FaMinus } from "react-icons/fa6";
-import { useCart } from '../../Context/CartContext';
+import { useCart } from "../../Context/CartContext";
 import { ProductsDetails } from '../../Types/ProductsDetails';
 interface ProductDetailProps {
   IdProduct?: string;

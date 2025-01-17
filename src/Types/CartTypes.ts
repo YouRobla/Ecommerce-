@@ -1,7 +1,7 @@
-import { ProductsDetails } from "./ProductsDetails";
+import {ProductsDetails} from './ProductsDetails.ts';
 
 export interface CartItem {
-    product: ProductDetails;
+    product: ProductsDetails;
     quantity: number;
     selectedColor: string;
     selectedSize: string;

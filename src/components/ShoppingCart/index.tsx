@@ -1,5 +1,5 @@
 
-import { useCart } from '../../Context/cartContext';
+import { useCart } from '../../Context/CartContext';
 import { FaTrash } from 'react-icons/fa';
 import { TiPlus } from "react-icons/ti";
 import { FaMinus } from "react-icons/fa6";
